@@ -1,0 +1,24 @@
+html {width: 1300px;margin: auto;}
+h1,h2{font-family: Verdana,sans-serif;}
+p,a{font-family:Calibri;color: black;}
+
+header, nav, main, footer{clear: both;width: 1280px;}
+
+.l{float: left;width: 900px;margin: 5px;}
+.r{float: right;width: 350px;margin: 5px;}
+
+header .r{width:600px;margin: 80px;}
+
+main div{background-color: #80d279;margin: 5px;padding:5px;}
+main img {width:500px}
+
+footer div{background-color: #00dab5;margin: 5px;padding:5px;height: 51px;}
+
+nav{height: 60px;}
+nav ul{padding: 0px;margin: 5px;}
+nav ul li{list-style-type: none;float: left;width: 14.28%;text-align: center;height: 30px;}
+nav ul li a{display: block;margin: 0px;text-decoration: none;padding:15px;height: 30px;background-color: #00dab5;}
+nav ul li a:hover{background-color: #0e4749;color:white}
+i{color: #00dab5;font-size:100px;margin:30px;}
+i:hover{color: #0e4749;}
+#wide{width: 24%;}
