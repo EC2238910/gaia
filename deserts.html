@@ -3,9 +3,21 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Deserts</title>
+  <meta name="description" content="GAIA website">
+  <meta name="keywords" content="GAIA,nature,environmental agency,environment">
+  <meta name="author" content="Mark Iskrytskyi">
+  <meta name="viewport" content="width=device-width"><title>Deserts</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <script>
+    function showname(x) {
+      x.style.display="none"
+      document.getElementById("name").style.display="inline"
+    }
+    function hidename(x){
+      x.style.display="none"
+      document.getElementById("photo").style.display="inline"
+    }
+  </script>
 </head>
 
 <body>
@@ -23,12 +35,13 @@
   </nav>
   <main>
     <div class="l"><h2>Deserts</h2>
-    <p>Deserts are dry regions characterized by sparse vegetation and a lack of precipitation. They cover about one-fifth of the Earth's land surface and can be found in various parts of the world. Deserts are known for their extreme temperatures and arid conditions.</p>
+    <p>Deserts are dry regions characterized by sparse vegetation and a lack of precipitation. They cover about one-fifth of the Earth's land surface and can be found in various parts of the world. Deserts are known for their extreme temperatures and arid conditions.</p></div><img src="desert.jpg" class="r"><div class="l">
 <h2>Desertification</h2>
 <p>Desertification is the process by which fertile land becomes desert, typically as a result of drought, deforestation, or improper agriculture practices. It is a serious environmental issue that leads to the loss of biodiversity, degradation of ecosystems, and displacement of communities who depend on the land for their livelihoods.</p>
 <p>The causes of desertification include drought, deforestation, overgrazing, inappropriate agricultural practices, and climate change. These factors contribute to the loss of vegetation, soil erosion, and the degradation of land, leading to the expansion of deserts.</p>
 </div>
-<img src="desert.jpg" class="r">
+    <img src="desertification.jpg" class="r" id="photo" onmouseenter="showname(this)">
+    <img src="forest.jpg" class="r" id="name" onmouseleave="hidename(this)">
   </main>
   <footer><div><p style="float: left;">@2023 GAIA. All Rights Reserved.</p>
   <p style="float: right;"><a target="_blank" href="https://www.no-burn.org/privacy/">Privacy Policy</a>|<a target="_blank" href="https://www.elevationweb.org/">Nonprofit Websites Design</a> by <a target="_blank" href="https://www.elevationweb.org/portfolio/">Elevation</a></p></div>

@@ -3,9 +3,22 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
+  <meta name="description" content="GAIA website">
+  <meta name="keywords" content="GAIA,nature,environmental agency,environment">
+  <meta name="author" content="Mark Iskrytskyi">
+  <meta name="viewport" content="width=device-width">               <title>About us</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>div{clear:both}</style>
+  <script>
+    function showname(x) {
+      x.style.display="none"
+      document.getElementById("name").style.display="inline"
+    }
+    function hidename(x){
+      x.style.display="none"
+      document.getElementById("photo").style.display="inline"
+    }
+  </script>
 </head>
 
 <body>
@@ -29,7 +42,25 @@
     <p>GAIA’s mission is to catalyze a global shift towards environmental justice by strengthening grassroots social movements that advance solutions to waste and pollution. We envision a just, zero waste world built on respect for ecological limits and community rights, where people are free from the burden of toxic pollution, and resources are sustainably conserved, not burned or dumped.</p>
       
 <p>Our network’s track record of success demonstrates the power of grassroots solutions to protect our planet and advance the rights and wellbeing of all communities—especially those who are most vulnerable to the impacts of pollution and exploitation.</p>
-</div><img src="Businessman.jpg" class="r">
+</div><img src="Businessman.jpg" class="r" 
+ id="photo" onmouseenter="showname(this)">
+    <section id="name" onmouseleave="hidename(this)"><h1>ANDREW ROLLINSON</h1><p>Senior Science Advisor</p></section>
+<div><h1>Building zero waste cities</h1><p>
+Over 550 municipalities around the world are already taking steps to transition into zero waste systems — and seeing its ecological, economic, and social benefits. Local transformation of cities and municipalities towards zero waste systems is at the heart of GAIA’s work: we provide dedicated support to both the expansion and the durability of zero waste projects all over the world. </p>
+<p>
+To help municipalities implement zero waste systems, we focus on five key pillars: </p>
+<ul>
+  <li>Setting a goal to end waste disposal in dumps, landfills, and incinerators</li>
+
+  <li>Holding producers accountable to design out waste and minimize material use</li>
+
+  <li>Encouraging responsible consumption that stays within ecological limits</li>
+
+  <li>Building systems and infrastructure to recover resources at their highest and best use</li>
+
+  <li>Prioritizing social and environmental justice, with a particular focus on waste pickers and frontline communities</li></ul>
+<p>
+By providing technical assistance to municipalities, investing in a wide range of case studies that provide replicable solutions for varied local scenarios, and producing certification systems for zero waste cities and zero waste businesses, GAIA is catalyzing the global shift towards zero waste.</p></div>
   </main>
   <footer><div><p style="float: left;">@2023 GAIA. All Rights Reserved.</p>
   <p style="float: right;"><a target="_blank" href="https://www.no-burn.org/privacy/">Privacy Policy</a>|<a target="_blank" href="https://www.elevationweb.org/">Nonprofit Websites Design</a> by <a target="_blank" href="https://www.elevationweb.org/portfolio/">Elevation</a></p></div>
